@@ -1,0 +1,170 @@
+ 
+
+.container { /* the area that holds the Table on the right side */
+    
+    margin: 0;
+    padding: 0;
+    min-width: 2em;
+    width: 300px;
+    float: left;
+    margin-left: 0.3em;
+    
+    
+}
+
+
+.table { /* the specs of the table, you can change               them if you need too */
+    
+    margin: 0;
+    padding: 0;
+    min-width: 2em;
+    width: 90%;
+   
+   
+}
+
+
+
+.row::after { /* not sure what this does, but leave                 it... its needed */
+    
+    content: "";
+    clear: both;
+    display: block;
+	
+}
+
+
+.Logo-col {width: 25%;}
+.About-col {width: 100%;}
+.Address-col {width: 50%;}
+.Email-col {width: 50%;}
+.Social-col {width: 50%;}
+.Notice.col{width: 100%;}
+
+
+.About-col { /* this is the specs of the 1st - 3rd column */
+	margin: 0;
+    padding: 0;
+    max-width: 100%;
+    float: left;
+     
+}
+
+.About-col .Logo-img { /* the logo img */
+    
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 65px;
+    margin-top: 0.9em;
+    margin-right: 0.3em;
+    float: left;   
+}
+
+.About-col h1 { /* William Houghton */
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: bold;
+	font-family: ‘Helvetica’, sans-serif;
+	margin-bottom: 0.8em;
+    
+}
+
+
+.About-col p { /* graphic degin - photography */
+    
+    color: #000000; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: normal; 
+    font-size: 0.8em;
+}
+
+.Address-col { /* this is the specs of the 1st - 3rd column */
+	margin-top: -10px;
+	margin-left: auto;
+	margin-bottom: 0;
+	padding: 0;
+    float:left;
+    margin-left: 4.6em;
+}
+
+
+.Address-col p {  /* this is the specs for the 2nd row text beginning with "Studio 41" */
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: normal;
+	font-family: ‘Helvetica’, sans-serif;
+	margin-top: 1em;
+	}
+
+.Address-col h1 { /* this is the specs for email link */
+    color: #a01d29; 
+    font-family: ‘Helvetica’, sans-serif; 
+    font-size: 0.8em; 
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    margin-top: 0.5em;
+    
+}
+
+.Email-col {
+    
+    margin: 0;
+	margin-left: 4.6em;
+	padding: 0;
+    float: left;
+}
+
+
+.Email-col a { /* this is the specs for email link */
+    color: #a01d29; 
+    font-family: ‘Helvetica’, sans-serif; 
+    font-size: 0.8em; 
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+
+.Social-col { /* the specs for the 5th column */
+     margin: 0 ;
+    padding: 0;
+    float: left;
+    margin-left: 4.6em;
+        
+}
+
+.Social-col img { /* 5th row images */
+    
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 1em;
+    max-width: 100%;
+    width: 30px;
+    
+}
+
+.Social-col .img2 { /* 5th row last 2 images to be able move them along */
+    
+    margin-left: 0.6em;
+}
+
+.Notice-col {
+    
+     margin: 0 auto;
+    padding: 0;
+    float: left;
+    margin-left: 4.6em;
+        
+    
+}
+
+.Notice-col p { /* 5th row text specs */
+    
+    color: #8A8A8A; 
+    font-family: ‘Helvetica’, sans-serif; 
+    font-size: 0.7em; 
+    font-weight: regular;
+}
